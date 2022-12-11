@@ -1,0 +1,9 @@
+post http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjYxYjNhMDc4MzhiMmZkMWY1ZmM4NWFhNyIsImlhdCI6MTYzOTE2ODQ0Mn0.hAR7bY2UD4YzYWgZQ5mznmVOzOrD1MQT-oqIOyTi6u4
+{
+    "title": "Test title",
+    "author": "Mr Ron",
+    "url": "www",
+    "likes": 123
+}
